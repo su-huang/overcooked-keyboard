@@ -2666,6 +2666,262 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "keyboard_library:W25Q128JVSIM"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 45.72 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "W25Q128JVSIM"
+				(at 45.72 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SOIC_128JVSIM_WIN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "W25Q128JVSIM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "W25Q128JVSIM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC_128JVSIM_WIN SOIC_128JVSIM_WIN-M SOIC_128JVSIM_WIN-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "W25Q128JVSIM_0_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -12.7)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -12.7) (xy 83.82 -12.7)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 83.82 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 83.82 -12.7) (xy 83.82 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 7.62)
+					(name "/CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "DO_(IO1)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "/WP_(IO2)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 91.44 0 180)
+					(length 7.62)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 91.44 -5.08 180)
+					(length 7.62)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 91.44 -7.62 180)
+					(length 7.62)
+					(name "DI_(IO0)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -3316,6 +3572,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 46.99) (xy 102.87 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10629f65-8c95-4cf7-b84d-4ad5d030d874")
+	)
+	(wire
+		(pts
 			(xy 113.03 52.07) (xy 102.87 52.07)
 		)
 		(stroke
@@ -3333,6 +3599,16 @@
 			(type default)
 		)
 		(uuid "1358eb6a-b43f-4413-82b2-c2302bbf4fe7")
+	)
+	(wire
+		(pts
+			(xy 113.03 36.83) (xy 102.87 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13d9857e-44db-411e-b0cd-6f039cd84ba5")
 	)
 	(wire
 		(pts
@@ -3586,6 +3862,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 41.91) (xy 102.87 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d48a14c-569b-4c1d-90fe-78b9eb8b4aa3")
+	)
+	(wire
+		(pts
 			(xy 189.23 91.44) (xy 189.23 90.17)
 		)
 		(stroke
@@ -3696,6 +3982,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 39.37) (xy 102.87 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cd4f09d-8be0-4e86-946d-93438b51dedf")
+	)
+	(wire
+		(pts
 			(xy 102.87 59.69) (xy 135.89 59.69)
 		)
 		(stroke
@@ -3743,6 +4039,16 @@
 			(type default)
 		)
 		(uuid "7a27c9c6-0434-43b8-9f6c-d50f06ce7ee3")
+	)
+	(wire
+		(pts
+			(xy 113.03 44.45) (xy 102.87 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f7fb5b3-93a2-4c3a-8d55-35ff44767244")
 	)
 	(wire
 		(pts
@@ -4126,6 +4432,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 49.53) (xy 102.87 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f39e0d89-c93e-4abf-8656-04cc77ba70f7")
+	)
+	(wire
+		(pts
 			(xy 254 138.43) (xy 262.89 138.43)
 		)
 		(stroke
@@ -4194,6 +4510,16 @@
 		)
 		(uuid "45c7ddf0-3c89-4a61-b07f-b555e9fdfcdf")
 	)
+	(label "QSPI_SD3"
+		(at 113.03 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "45db586a-5b91-4b7e-988a-918abd2ec27e")
+	)
 	(label "+1V1"
 		(at 30.48 90.17 0)
 		(effects
@@ -4203,6 +4529,16 @@
 			(justify left bottom)
 		)
 		(uuid "49b9e5e9-28ab-4161-a0ac-34f958ea8be1")
+	)
+	(label "QSPI_SD1"
+		(at 113.03 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4c242ebf-6c57-4171-9ecb-71eba286865e")
 	)
 	(label "+1V1"
 		(at 260.35 80.01 0)
@@ -4214,6 +4550,16 @@
 		)
 		(uuid "518015a2-8cd8-4fe5-87a5-11c8f9c5e80d")
 	)
+	(label "QSPI_SS_N"
+		(at 113.03 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5f22a253-4764-4e52-859e-a52b30cababb")
+	)
 	(label "+1V1"
 		(at 113.03 52.07 180)
 		(effects
@@ -4223,6 +4569,26 @@
 			(justify right bottom)
 		)
 		(uuid "679d3431-dbc2-475d-b10a-dc0cec3f36a7")
+	)
+	(label "QSPI_SCLK"
+		(at 113.03 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6d9516b6-a4fd-4ec5-b2e0-925eb4f15d13")
+	)
+	(label "QSPI_SD2"
+		(at 113.03 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "90241c5c-067e-4e77-9d6b-f78fd28beec1")
 	)
 	(label "XOUT"
 		(at 281.94 110.49 180)
@@ -4273,6 +4639,16 @@
 			(justify right bottom)
 		)
 		(uuid "afb7cd55-29a5-4abd-a5ec-4cbe965faa4b")
+	)
+	(label "QSPI_SDO"
+		(at 113.03 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c0621ec9-b85f-4fc1-b086-c17433066925")
 	)
 	(label "USB_D-"
 		(at 228.6 38.1 180)
@@ -7472,6 +7848,91 @@
 			(project "keyboard_pcb_design"
 				(path "/f9810ab7-9213-4203-bfa9-6536d5a4d26a"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_library:W25Q128JVSIM")
+		(at 237.49 237.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d057fcb9-e99e-45bd-9704-98369aff8900")
+		(property "Reference" "U3"
+			(at 283.21 227.33 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "W25Q128JVSIM"
+			(at 283.21 229.87 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "keyboard_footprint:SOIC_128JVSIM_WIN"
+			(at 237.49 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "W25Q128JVSIM"
+			(at 237.49 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "8a8420ce-c1c1-4450-a8ec-1c0159e5f7ec")
+		)
+		(pin "4"
+			(uuid "8d6cbfa2-9391-4753-b61d-e23aa70851f6")
+		)
+		(pin "3"
+			(uuid "541d0e8f-b1e5-4c2f-a30c-59f3c23a243d")
+		)
+		(pin "2"
+			(uuid "6b69f218-4427-4ff7-a8f2-975669eb7b85")
+		)
+		(pin "6"
+			(uuid "ceb60c8e-b7ca-4f94-a5e8-b060e9850490")
+		)
+		(pin "1"
+			(uuid "459fe7fa-0741-4c43-a088-42574eb62e7d")
+		)
+		(pin "8"
+			(uuid "fd9b1e98-7e52-4bd9-b7fa-3b77ca6f6b39")
+		)
+		(instances
+			(project ""
+				(path "/f9810ab7-9213-4203-bfa9-6536d5a4d26a"
+					(reference "U3")
 					(unit 1)
 				)
 			)
