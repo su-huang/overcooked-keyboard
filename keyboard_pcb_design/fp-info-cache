@@ -1,4 +1,4 @@
-26653350993168007
+26653351028879514
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106260,19 +106260,19 @@ BJR_LOGO
 0
 0
 keyboard_footprint
+MX25L3233FM2I-08Q
+
+
+0
+8
+8
+keyboard_footprint
 SC09147_QFN56_7X7_RPI
 
 SC09147 
 0
 57
 57
-keyboard_footprint
-SOIC_128JVSIM_WIN
-
-W25Q128JVSIM 
-0
-8
-8
 keyboard_footprint
 XTAL_ABM8-272-T3
 
