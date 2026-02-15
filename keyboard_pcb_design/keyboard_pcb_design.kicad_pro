@@ -250,7 +250,8 @@
       "keyboard_footprint"
     ],
     "pinned_symbol_libs": [
-      "keyboard_library"
+      "keyboard_library",
+      "keyboard_parts"
     ]
   },
   "meta": {
