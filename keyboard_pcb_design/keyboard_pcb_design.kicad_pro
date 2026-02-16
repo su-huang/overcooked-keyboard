@@ -251,7 +251,8 @@
     ],
     "pinned_symbol_libs": [
       "keyboard_library",
-      "keyboard_parts"
+      "keyboard_parts",
+      "tut_keyboard_library"
     ]
   },
   "meta": {
