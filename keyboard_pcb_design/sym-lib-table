@@ -1,5 +1,5 @@
 (sym_lib_table
   (version 7)
   (lib (name "keyboard_library")(type "KiCad")(uri "${KIPRJMOD}/keyboard_library.kicad_sym")(options "")(descr ""))
-  (lib (name "keyboard_parts")(type "Legacy")(uri "/Users/suhuang/Downloads/kicad_lib_tmk-master/keyboard_parts.lib")(options "")(descr ""))
+  (lib (name "tut_keyboard_library")(type "KiCad")(uri "/Users/suhuang/Downloads/ScottoKeebs.kicad_sym")(options "")(descr ""))
 )
