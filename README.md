@@ -15,7 +15,7 @@ my roadmap includes and is not limited to:
   * **enclosure design**: CAD modelling a low-profile case that supports the extra vertical height of the joystick assembly
   * **custom configuration GUI**: allowing real-time customization without requiring the user to recompile C code or flash firmware manually
 
-technical stack: 
+the technical stack: 
   * **EDA**: KiCad 9.0
   * **CAD**: OnShape 
   * **microcontroller**: RP2040
