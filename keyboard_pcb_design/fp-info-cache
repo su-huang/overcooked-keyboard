@@ -1,4 +1,4 @@
-26656893629769397
+26658666487101963
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106259,6 +106259,13 @@ BJR_LOGO
 0
 0
 0
+keyboard_footprint
+1528-5628-ND
+
+
+0
+7
+7
 keyboard_footprint
 MX25L3233FM2I-08Q
 
